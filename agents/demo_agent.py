@@ -14,5 +14,7 @@ def fetch(url: str) -> str:
     """Tool: fetch any URL."""
     return requests.get(url).text
 
+#this is just a tools introduction
+
 tools = [run_shell, fetch]
 # agent wired up with AgentExecutor / create_react_agent ...
